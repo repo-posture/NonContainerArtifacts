@@ -1,0 +1,191 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:7493273b-18c9-46c9-8bc3-bd419cbbdbcf",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-07-01T11:31:07Z",
+    "tools": {
+      "services": [
+        {
+          "name": "JFrog Xray Scanner",
+          "version": "3.143.16"
+        },
+        {
+          "name": "JFrog Applicability Scanner",
+          "version": "1.0"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "JFrog"
+      }
+    ],
+    "component": {
+      "bom-ref": "file:cfc4607c92616a360249a63f70caf961",
+      "type": "file",
+      "name": "xqs-dashboard-api.tar"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:maven/org.yaml/snakeyaml@1.33",
+      "type": "library",
+      "name": "org.yaml:snakeyaml",
+      "version": "1.33",
+      "purl": "pkg:maven/org.yaml/snakeyaml@1.33"
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@10.1.13",
+      "type": "library",
+      "name": "org.apache.tomcat.embed:tomcat-embed-core",
+      "version": "10.1.13",
+      "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@10.1.13"
+    },
+    {
+      "bom-ref": "pkg:alpine/3.18/musl-utils@1.2.4-r1",
+      "type": "library",
+      "name": "3.18:musl-utils",
+      "version": "1.2.4-r1",
+      "purl": "pkg:alpine/3.18/musl-utils@1.2.4-r1"
+    },
+    {
+      "bom-ref": "pkg:alpine/3.18/musl@1.2.4-r1",
+      "type": "library",
+      "name": "3.18:musl",
+      "version": "1.2.4-r1",
+      "purl": "pkg:alpine/3.18/musl@1.2.4-r1"
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework/spring-web@6.0.12",
+      "type": "library",
+      "name": "org.springframework:spring-web",
+      "version": "6.0.12",
+      "purl": "pkg:maven/org.springframework/spring-web@6.0.12"
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework/spring-webmvc@6.0.12",
+      "type": "library",
+      "name": "org.springframework:spring-webmvc",
+      "version": "6.0.12",
+      "purl": "pkg:maven/org.springframework/spring-webmvc@6.0.12"
+    },
+    {
+      "bom-ref": "pkg:alpine/3.18/busybox-binsh@1.36.1-r2",
+      "type": "library",
+      "name": "3.18:busybox-binsh",
+      "version": "1.36.1-r2",
+      "purl": "pkg:alpine/3.18/busybox-binsh@1.36.1-r2"
+    },
+    {
+      "bom-ref": "pkg:alpine/3.18/busybox@1.36.1-r2",
+      "type": "library",
+      "name": "3.18:busybox",
+      "version": "1.36.1-r2",
+      "purl": "pkg:alpine/3.18/busybox@1.36.1-r2"
+    },
+    {
+      "bom-ref": "pkg:alpine/3.18/ssl_client@1.36.1-r2",
+      "type": "library",
+      "name": "3.18:ssl_client",
+      "version": "1.36.1-r2",
+      "purl": "pkg:alpine/3.18/ssl_client@1.36.1-r2"
+    },
+    {
+      "bom-ref": "pkg:alpine/3.18/zlib@1.2.13-r1",
+      "type": "library",
+      "name": "3.18:zlib",
+      "version": "1.2.13-r1",
+      "purl": "pkg:alpine/3.18/zlib@1.2.13-r1"
+    },
+    {
+      "bom-ref": "pkg:maven/ch.qos.logback/logback-classic@1.4.11",
+      "type": "library",
+      "name": "ch.qos.logback:logback-classic",
+      "version": "1.4.11",
+      "purl": "pkg:maven/ch.qos.logback/logback-classic@1.4.11"
+    },
+    {
+      "bom-ref": "pkg:maven/ch.qos.logback/logback-core@1.4.11",
+      "type": "library",
+      "name": "ch.qos.logback:logback-core",
+      "version": "1.4.11",
+      "purl": "pkg:maven/ch.qos.logback/logback-core@1.4.11"
+    },
+    {
+      "bom-ref": "pkg:alpine/3.18/libcrypto3@3.1.3-r0",
+      "type": "library",
+      "name": "3.18:libcrypto3",
+      "version": "3.1.3-r0",
+      "purl": "pkg:alpine/3.18/libcrypto3@3.1.3-r0"
+    },
+    {
+      "bom-ref": "pkg:alpine/3.18/libssl3@3.1.3-r0",
+      "type": "library",
+      "name": "3.18:libssl3",
+      "version": "3.1.3-r0",
+      "purl": "pkg:alpine/3.18/libssl3@3.1.3-r0"
+    },
+    {
+      "bom-ref": "file:e034172bf1bd61ba7f25b2187be5cf4e",
+      "type": "file",
+      "name": "file:///lib/libcrypto.so.3"
+    },
+    {
+      "bom-ref": "file:d734294cd74249b72a9cb498b7cba8fb",
+      "type": "file",
+      "name": "file:///lib/libssl.so.3"
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.2",
+      "type": "library",
+      "name": "com.fasterxml.jackson.core:jackson-databind",
+      "version": "2.15.2",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.2"
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.2",
+      "type": "library",
+      "name": "com.fasterxml.jackson.core:jackson-core",
+      "version": "2.15.2",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.2"
+    },
+    {
+      "bom-ref": "pkg:maven/com.mysql/mysql-connector-j@8.0.33",
+      "type": "library",
+      "name": "com.mysql:mysql-connector-j",
+      "version": "8.0.33",
+      "purl": "pkg:maven/com.mysql/mysql-connector-j@8.0.33"
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework/spring-context@6.0.12",
+      "type": "library",
+      "name": "org.springframework:spring-context",
+      "version": "6.0.12",
+      "purl": "pkg:maven/org.springframework/spring-context@6.0.12"
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot@3.1.4",
+      "type": "library",
+      "name": "org.springframework.boot:spring-boot",
+      "version": "3.1.4",
+      "purl": "pkg:maven/org.springframework.boot/spring-boot@3.1.4"
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework/spring-core@6.0.12",
+      "type": "library",
+      "name": "org.springframework:spring-core",
+      "version": "6.0.12",
+      "purl": "pkg:maven/org.springframework/spring-core@6.0.12"
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@10.1.13",
+      "type": "library",
+      "name": "org.apache.tomcat.embed:tomcat-embed-websocket",
+      "version": "10.1.13",
+      "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@10.1.13"
+    }
+  ]
+}
